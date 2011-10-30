@@ -5,7 +5,7 @@ body { font-family: Arial Unicode MS, Arial, sans-serif; font-size: small; }
 .header a { color:#333333; cursor:pointer; text-decoration:none; white-space:nowrap; margin-top:6px; margin-left:20px; float:left; padding:3px;}
 .headerRight { float:right; margin-rigth:20px; padding-right:20px;}
 
-.right { position:absolute; right:5px; top:55px; }
+.right { position:absolute; right:25px; top:55px; }
 .left { position: absolute; top: 55px; left: 15px; float: left; }
 .content { margin-top:60px; margin-left:-20px; width:55%; text-align:left;}
 .title { color:#488AC7;}

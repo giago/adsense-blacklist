@@ -16,6 +16,6 @@
 		 	<jsp:include page="static/help.html"/>
 		 	<jsp:include page="fragments/ads.jsp"/> 
 		  </center>
-		 <jsp:include page="fragments/right.html"/>
+		 <jsp:include page="fragments/right.jsp"/>
 	 </body>
 </html>

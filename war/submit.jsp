@@ -13,6 +13,6 @@
 	 	<jsp:include page="fragments/header.jsp"/>
 		 <jsp:include page="fragments/left.html"/>
 		 <jsp:include page="static/submit.html"/>
-		 <jsp:include page="fragments/right.html"/>
+		 <jsp:include page="fragments/right.jsp"/>
 	 </body>
 </html>

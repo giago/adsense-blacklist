@@ -16,8 +16,6 @@ import org.agosti.abl.shared.model.Url;
 
 
 public class UrlListFilter implements Filter {
-
-	private static final long serialVersionUID = 1L;
 	
 	private UrlDao dao;
 	

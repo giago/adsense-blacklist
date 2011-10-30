@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <center>
 	<div class="content">
 	  <div class="title"><h2>Google AdSense Open Black List</h2></div>    
