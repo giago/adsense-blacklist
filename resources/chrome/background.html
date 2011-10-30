@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<script type="text/javascript">
+			//=======================================================
+			//listener for content scripts
+			//=======================================================
+			chrome.extension.onRequest.addListener(
+				function(request, sender, sendResponse) {
+					callServerWithUrl(request.url);		
+				}
+			);
+
+			function callServerWithUrl(url) {
+				console.info(url);
+			}
+		</script>
+	</head>
+	<body></body>
+</html>

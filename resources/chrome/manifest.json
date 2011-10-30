@@ -1,0 +1,16 @@
+{
+	"name": "Google AdSense Black List",
+  	"version": "0.1.0",
+  	"description": "Google AdSense Black List",
+  	"icons": { 
+		"32": "32x32.png",
+		"48": "48x48.png"
+	},
+  	"permissions": ["tabs", "http://adsense-blacklist.appspot.com/*", "http://googleads.g.doubleclick.net/*"],
+  	"background_page": "background.html",
+  	"content_scripts": [{
+  		"run_at" : "document_end",
+		"matches": ["https://*/*", "http://*/*"],
+		"js": ["contentscript.js"]
+  	}]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+sitemap: http://adsense-blacklist.appspot.com/sitemap.xml
